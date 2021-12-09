@@ -1,0 +1,33 @@
+Could you explain more detail about this?
+5 --> smart contract delate wallet address
+*************************
+-Send the money to the Wallet Creator when the project is Done/Fail
+I think the money should back to investers when it's done..
+And investers and backer is not same??
+***********************
+
+Profit Sharing
+-Send all the money arrive to WeFund Main Wallet to the Smart Contract Profit Sharing , and this contract send all the money to
+ -60% WeFund Wallet
+ -3% Investor Wallet
+ -25% Team Wallet
+ -2% Crypto Expert Wallet
+  -10% Treasury Wallet
+
+Where is backer here??
+*******************************
+
+-5% YIeld from Anchor are used to buy WFD token on the Exchange
+
+here 5% is from where?
+I mean in those 
+-60% WeFund Wallet
+ -3% Investor Wallet
+ -25% Team Wallet
+ -2% Crypto Expert Wallet
+  -10% Treasury Wallet
+***********************************
+
+-Burn the token buy on the Exchange
+
+how can burn token as this token is not ours.??
