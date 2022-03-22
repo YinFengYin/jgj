@@ -1,0 +1,49 @@
+1._Rust_CosmWasm Contract
+
+-This is the factory, pair part of DEX platform.
+
+-First of all, this is enough simple of those DEX platforms.
+.pros: easy to use, easy to analyse.
+.cons: not fit for complex, powerful DEX.
+       weak for attacks.
+
+-There is no Bot protecting contract and liquidity pool contract..
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+Code analyse
+Code is typical and simple and looks like there is no black hole from coder.
+-contracts/factory/src/contrac.rs
+74: pub fn execute: this function only can be called by owner only.
+	of course this function call 'execute_update_config' func and it has the owner check. but we need to 	check ownership in 'execute' function directly to speed up. 
+
+-contracts/pair/src/contract.rs
+311: if info.sender != config.pair_info.liquidity_token
+     I think here 'liquidity_token should be 'receiver' meaning only 'liquidity provider' can withdraw his money
+
+302: 'withdraw_liquidity' function
+     I think here there should be 'amount' check meaning 'amount' should be small than deposited amount.
+     (before 328: Burn)
+
+365: 'swap' function
+     This function is for swapping total amount of 'offer_asset' to 'to' asset?
+     I think here there should be 'amount' to swap for paramater.
+
+
+****************add****************
+-contracts/factory/src/contrac.rs
+179: gas_limit:None
+     if the network is getting so hot and trouble we can lose money for the unlimited gas.
+239: pair_addr
+     It would be great to check if the 'pair_addr' is in type of address for perfection
+
+-contracts/pair/src/contrac.rs
+76: gas_limit:None
+    if the network is getting so hot and trouble we can lose money for the unlimited gas.
+
+359: amount: a.amount* share_ratio.
+     I think here there should be Uint128 check for the result of * because amount is Uint128 type
+     (like these. 639: let return_amount: Uint256, 644)
+
+662: let cp= Uint256::from..
+     Here also should be Uint type check
+
+663: same as above
