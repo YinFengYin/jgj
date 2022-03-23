@@ -1,0 +1,180 @@
+{
+  "info": {
+    "_postman_id": "80dfda8f-3706-47de-91a8-d4bd19c75850",
+    "name": "Xtreme Api Explanation for KoCholMyong",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Xtreme Login",
+      "id": "334b02e6-cdd1-4aec-b84a-f31b5d0e49f9",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://aromatv.co:80/player_api.php?username=9007421689&password=l7nTV8aO8e",
+          "protocol": "http",
+          "host": [
+            "aromatv",
+            "co"
+          ],
+          "port": "80",
+          "path": [
+            "player_api.php"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "9007421689"
+            },
+            {
+              "key": "password",
+              "value": "l7nTV8aO8e"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get live categories",
+      "id": "5fc0e569-3ac8-4890-9f74-f917a38cfd07",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://aromatv.co:80/player_api.php?username=9007421689&password=l7nTV8aO8e&action=get_live_categories",
+          "protocol": "http",
+          "host": [
+            "aromatv",
+            "co"
+          ],
+          "port": "80",
+          "path": [
+            "player_api.php"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "9007421689"
+            },
+            {
+              "key": "password",
+              "value": "l7nTV8aO8e"
+            },
+            {
+              "key": "action",
+              "value": "get_live_categories"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get live stream api",
+      "id": "2f8ed8e7-f6fb-4e98-9b44-0de9690ca06c",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://aromatv.co:80/player_api.php?username=9007421689&password=l7nTV8aO8e&action=get_live_streams",
+          "protocol": "http",
+          "host": [
+            "aromatv",
+            "co"
+          ],
+          "port": "80",
+          "path": [
+            "player_api.php"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "9007421689"
+            },
+            {
+              "key": "password",
+              "value": "l7nTV8aO8e"
+            },
+            {
+              "key": "action",
+              "value": "get_live_streams"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get vod categories",
+      "id": "87935e1d-ec11-4129-b048-0da179470005",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://aromatv.co:80/player_api.php?username=9007421689&password=l7nTV8aO8e&action=get_vod_categories",
+          "protocol": "http",
+          "host": [
+            "aromatv",
+            "co"
+          ],
+          "port": "80",
+          "path": [
+            "player_api.php"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "9007421689"
+            },
+            {
+              "key": "password",
+              "value": "l7nTV8aO8e"
+            },
+            {
+              "key": "action",
+              "value": "get_vod_categories"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get all vod streams",
+      "id": "c7187386-db0c-4f85-9610-d8c18aba02cd",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://aromatv.co:80/player_api.php?username=9007421689&password=l7nTV8aO8e&action=get_vod_streams",
+          "protocol": "http",
+          "host": [
+            "aromatv",
+            "co"
+          ],
+          "port": "80",
+          "path": [
+            "player_api.php"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "9007421689"
+            },
+            {
+              "key": "password",
+              "value": "l7nTV8aO8e"
+            },
+            {
+              "key": "action",
+              "value": "get_vod_streams"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
